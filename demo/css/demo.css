@@ -1,0 +1,118 @@
+.elh-page-header .elh-overlay{
+    background-color: transparent;
+    padding-top: 220px;
+    padding-bottom: 140px;
+}
+.title-brand{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.title-brand img{
+    height: 60px;
+    width: auto;
+}
+.elh-page-header .elh-page-title{
+    font-size: 3.6rem;
+    margin-bottom: 0;
+}
+.demo-section{
+    padding: 120px 0 60px;
+}
+.demo-block{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.demo-thumb{
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15)
+}
+.demo-block .demo-thumb .overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+.demo-block:hover .demo-thumb .overlay{
+    opacity: 1;
+}
+.demo-block .demo-thumb .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+}
+.demo-block:hover .demo-thumb .btn{
+    opacity: 1;
+}
+.demo-block h5{
+    font-size: 1.8rem;
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+.elh-objective-icon i {
+    font-size: 6rem;
+    color: #00bcd4;
+}
+#features-list{
+    padding-bottom: 120px;
+}
+.footer{
+    padding: 115px 0;
+    background-color: #00bcd4;
+}
+.footer-logo-widget{
+    text-align: center;
+}
+.footer-logo-widget a{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.footer-logo-widget a img{
+    height: 40px;
+}
+.footer-logo-widget p{
+    color: #ffffff;
+}
+.lower-footer{
+   background-color: #232b2d;
+    padding: 22px 0;
+}
+
+.cp-nav {
+    padding: 0 15px;
+}
+
+
+.navbar .navbar-nav .menu-item.purchase-link a {
+    background-color: #ffffff;
+    border-radius: 3px;
+    color: #333 !important;
+    padding: 12px 20px;
+    margin-top: 14px;
+    margin-left: 15px;
+}
+.fixed .navbar .navbar-nav .menu-item.purchase-link a {
+    margin-top: 10px;
+    padding: 6px 20px !important;
+}
+
+@media all and (max-width: 991px) {
+    .lower-footer .copyright-text {
+        text-align: center !important;
+    }
+    .navbar .navbar-nav .menu-item.purchase-link a {
+        background: #00bcd4;
+        color: #fff !important;
+        margin-left: 0;
+        width: auto;
+        display: inline-block;
+    }
+}
